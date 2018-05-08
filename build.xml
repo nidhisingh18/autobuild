@@ -192,7 +192,7 @@
         <exec executable="C:/Users/Nidhi/.jenkins/workspace/autobuildjenkins/vendor/bin/phpunit.bat" failonerror="true" taskname="phpunit">
             <arg value="--configuration"/>
             <arg path="${basedir}/build/phpunit.xml"/>
-            <arg path="tests"/>
+            <arg path="application/tests"/>
             <arg value="--no-coverage"/>
         </exec>
         <property name="phpunit.done" value="true"/>
