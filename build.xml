@@ -182,7 +182,7 @@
         <exec executable="C:/Users/Nidhi/.jenkins/workspace/autobuildjenkins/vendor/bin/phpunit.bat" resultproperty="result.phpunit" taskname="phpunit">
             <arg value="--configuration"/>
             <arg path="${basedir}/build/phpunit.xml"/>
-            <arg path="tests"/>
+            <arg path="application/tests"/>
         </exec>
         <property name="phpunit.done" value="true"/>
     </target>
